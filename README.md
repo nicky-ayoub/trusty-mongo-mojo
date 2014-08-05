@@ -1,4 +1,4 @@
-tasty-mongo-mojo
+trusty-mongo-mojo
 ================
 
 Vagrant box for MongoDB + Perl 5.20 + Mojolicious + Mango
