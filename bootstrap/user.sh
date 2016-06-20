@@ -1,5 +1,12 @@
 #!/bin/bash
 # bootstrap/user.sh
+#
+# executed from the system boot strap
+# The perl install and modules are userbased
+# This is done with perlbrew.
+# cpan can be used to itemize other module dependencies
+# The perl version can also be updated here.
+# To do so "vargant up|reload --provision"
 
 # Install perlbrew
 curl -L http://install.perlbrew.pl | bash

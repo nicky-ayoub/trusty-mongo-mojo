@@ -1,4 +1,6 @@
 #!/bin/bash
+# This gets and Ubuntu box with mongo installed.
+# once done it sources the user setup to get perl and Mojo.
 # bootstrap/system.sh
 
 # Install MongoDB
