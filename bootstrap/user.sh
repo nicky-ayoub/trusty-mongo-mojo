@@ -18,7 +18,9 @@ perlbrew install perl-5.20.0
 perlbrew switch perl-5.20.0
 perlbrew install-cpanm
 cpanm Mojolicious
+cpanm Mojo::Pg
 cpanm Mango
+cpanm Minion
 
 # The MIT License (MIT)
 #

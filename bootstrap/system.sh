@@ -3,6 +3,12 @@
 # once done it sources the user setup to get perl and Mojo.
 # bootstrap/system.sh
 
+#Install Postgres
+sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
+sudo apt-get -q update
+sudo apt-get -q -y  install postgresql postgresql-contrib libpq-dev
+
 # Install MongoDB
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' \
