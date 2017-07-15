@@ -21,6 +21,7 @@ cpanm Mojolicious
 cpanm Mojo::Pg
 cpanm Mango
 cpanm Minion
+cpanm MongoDBx::Class
 
 # The MIT License (MIT)
 #
